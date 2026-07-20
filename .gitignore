@@ -1,0 +1,51 @@
+# ==========================================
+# 1. Environment Variables & Secrets (CRITICAL)
+# ==========================================
+.env
+*.env
+backend/.env
+frontend/.env
+*.env.local
+
+# ==========================================
+# 2. Virtual Environments & Python Cache
+# ==========================================
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==========================================
+# 3. Vector Database & Generated Embeddings
+# ==========================================
+chroma_db/
+backend/chroma_db/
+*.sqlite3
+*.db
+
+# ==========================================
+# 4. Node.js & React Dependencies / Build
+# ==========================================
+node_modules/
+frontend/node_modules/
+dist/
+build/
+frontend/dist/
+frontend/build/
+.pnpm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==========================================
+# 5. IDE & System Files
+# ==========================================
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
